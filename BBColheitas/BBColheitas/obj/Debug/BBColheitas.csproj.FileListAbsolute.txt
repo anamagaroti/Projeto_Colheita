@@ -1,0 +1,26 @@
+C:\ProjetosVS\Qualidade e teste\BBColheitas\BBColheitas\bin\Debug\BBColheitas.exe.config
+C:\ProjetosVS\Qualidade e teste\BBColheitas\BBColheitas\bin\Debug\BBColheitas.exe
+C:\ProjetosVS\Qualidade e teste\BBColheitas\BBColheitas\bin\Debug\BBColheitas.pdb
+C:\ProjetosVS\Qualidade e teste\BBColheitas\BBColheitas\obj\Debug\BBColheitas.csprojAssemblyReference.cache
+C:\ProjetosVS\Qualidade e teste\BBColheitas\BBColheitas\obj\Debug\BBColheitas.Properties.Resources.resources
+C:\ProjetosVS\Qualidade e teste\BBColheitas\BBColheitas\obj\Debug\BBColheitas.csproj.GenerateResource.cache
+C:\ProjetosVS\Qualidade e teste\BBColheitas\BBColheitas\obj\Debug\BBColheitas.csproj.CoreCompileInputs.cache
+C:\ProjetosVS\Qualidade e teste\BBColheitas\BBColheitas\obj\Debug\BBColheitas.exe
+C:\ProjetosVS\Qualidade e teste\BBColheitas\BBColheitas\obj\Debug\BBColheitas.pdb
+C:\ProjetosVS\Qualidade e teste\BBColheitas\BBColheitas\obj\Debug\BBColheitas.Principal.resources
+C:\ProjetosVS\Qualidade e teste\BBColheitas\BBColheitas\obj\Debug\BBColheitas.Visao.VisaoFuncionario.resources
+C:\ProjetosVS\Qualidade e teste\BBColheitas\BBColheitas\obj\Debug\BBColheitas.Visao.Testes.resources
+C:\ProjetosVS\Qualidade e teste\BBColheitas\BBColheitas\obj\Debug\BBColheitas.Visao.VisaoTipoProd.resources
+C:\Users\Aluno(a)\Desktop\BBColheitas\BBColheitas\bin\Debug\BBColheitas.exe.config
+C:\Users\Aluno(a)\Desktop\BBColheitas\BBColheitas\bin\Debug\BBColheitas.exe
+C:\Users\Aluno(a)\Desktop\BBColheitas\BBColheitas\bin\Debug\BBColheitas.pdb
+C:\Users\Aluno(a)\Desktop\BBColheitas\BBColheitas\obj\Debug\BBColheitas.csprojAssemblyReference.cache
+C:\Users\Aluno(a)\Desktop\BBColheitas\BBColheitas\obj\Debug\BBColheitas.Properties.Resources.resources
+C:\Users\Aluno(a)\Desktop\BBColheitas\BBColheitas\obj\Debug\BBColheitas.Principal.resources
+C:\Users\Aluno(a)\Desktop\BBColheitas\BBColheitas\obj\Debug\BBColheitas.Visao.Testes.resources
+C:\Users\Aluno(a)\Desktop\BBColheitas\BBColheitas\obj\Debug\BBColheitas.Visao.VisaoFuncionario.resources
+C:\Users\Aluno(a)\Desktop\BBColheitas\BBColheitas\obj\Debug\BBColheitas.Visao.VisaoTipoProd.resources
+C:\Users\Aluno(a)\Desktop\BBColheitas\BBColheitas\obj\Debug\BBColheitas.csproj.GenerateResource.cache
+C:\Users\Aluno(a)\Desktop\BBColheitas\BBColheitas\obj\Debug\BBColheitas.csproj.CoreCompileInputs.cache
+C:\Users\Aluno(a)\Desktop\BBColheitas\BBColheitas\obj\Debug\BBColheitas.exe
+C:\Users\Aluno(a)\Desktop\BBColheitas\BBColheitas\obj\Debug\BBColheitas.pdb

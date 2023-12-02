@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9B60390-0094-4E1F-8474-D27A05542770}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BBColheitas</RootNamespace>
+    <AssemblyName>BBColheitas</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controle\ConexaoBD.cs" />
+    <Compile Include="Controle\ControleFuncionario.cs" />
+    <Compile Include="Controle\ControleTipoProducao.cs" />
+    <Compile Include="Modelo\Frequencia.cs" />
+    <Compile Include="Modelo\ModeloFuncionario.cs" />
+    <Compile Include="Modelo\Pagamento.cs" />
+    <Compile Include="Modelo\Producao.cs" />
+    <Compile Include="Modelo\Status.cs" />
+    <Compile Include="Modelo\ModeloTipoProducao.cs" />
+    <Compile Include="Visao\Testes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\Testes.Designer.cs">
+      <DependentUpon>Testes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\VisaoFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\VisaoFuncionario.Designer.cs">
+      <DependentUpon>VisaoFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\Form1.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controle\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Visao\VisaoTipoProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\VisaoTipoProd.Designer.cs">
+      <DependentUpon>VisaoTipoProd.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Visao\Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\Testes.resx">
+      <DependentUpon>Testes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\VisaoFuncionario.resx">
+      <DependentUpon>VisaoFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\VisaoTipoProd.resx">
+      <DependentUpon>VisaoTipoProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\285646_lock_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_funcionario.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
